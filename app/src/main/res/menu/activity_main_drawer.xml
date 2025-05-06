@@ -16,5 +16,19 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_info"
+            android:title="Ковры" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_web"
+            android:title="Браузер" />
+        <item
+            android:id="@+id/fragment_background"
+            android:icon="@drawable/robot"
+            android:title="@string/fon_fragment" />
+
+
     </group>
 </menu>

@@ -22,4 +22,19 @@
         android:name="com.mirea.semyenovasa.mireaproject.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.mirea.semyenovasa.mireaproject.DataFragment"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_web"
+        android:name="com.mirea.semyenovasa.mireaproject.WebViewFragment"
+        android:label="fragment_webview"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/fragment_background"
+        android:name="com.mirea.semyenovasa.mireaproject.Background"
+        android:label="fragment_background"
+        tools:layout="@layout/fragment_background" />
 </navigation>
