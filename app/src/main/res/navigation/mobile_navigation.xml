@@ -57,4 +57,9 @@
         android:name="com.mirea.semyenovasa.mireaproject.Profile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileWork"
+        android:name="com.mirea.semyenovasa.mireaproject.Workwithfiles"
+        android:label="fragment_file_work"
+        tools:layout="@layout/fragment_workwithfiles" />
 </navigation>
