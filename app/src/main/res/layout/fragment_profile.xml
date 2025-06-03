@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Profile">
+
+    <EditText
+        android:id="@+id/eT_name"
+        android:layout_width="216dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Имя"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eT_surname"
+        android:layout_width="228dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Фамилия"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_name" />
+
+    <EditText
+        android:id="@+id/eT_groupmirea"
+        android:layout_width="334dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Название Учебной группы"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_surname" />
+
+    <Button
+        android:id="@+id/b_save"
+        android:layout_width="155dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:text="Сохранить"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_groupmirea" />
+
+    <Button
+        android:id="@+id/b_load"
+        android:layout_width="155dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Загрузить"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b_save"
+        app:layout_constraintTop_toBottomOf="@+id/eT_groupmirea" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

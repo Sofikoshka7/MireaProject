@@ -78,10 +78,10 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == PERMISSION_REQUEST_CODE) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // Разрешения предоставлены
-                Log.d(TAG,"Разрешеняи предоставлены");
+                Log.d(TAG,"Разрешения предоставлены");
             } else {
                 // Разрешения не предоставлены, вы можете уведомить пользователя
-                Log.d(TAG,"Разрешеняи не предоставлены");
+                Log.d(TAG,"Разрешения не предоставлены");
             }
         }
     }
