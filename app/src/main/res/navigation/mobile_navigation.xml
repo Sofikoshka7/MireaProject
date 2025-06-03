@@ -37,4 +37,19 @@
         android:name="com.mirea.semyenovasa.mireaproject.Background"
         android:label="fragment_background"
         tools:layout="@layout/fragment_background" />
+    <fragment
+        android:id="@+id/datchikFragment"
+        android:name="com.mirea.semyenovasa.mireaproject.DatchikFragment"
+        android:label="fragment_datchik"
+        tools:layout="@layout/fragment_datchik" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.mirea.semyenovasa.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="com.mirea.semyenovasa.mireaproject.AudioFragment"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
 </navigation>
