@@ -27,15 +27,11 @@ android {
         }
     }
 
-    buildFeatures{
-        viewBinding = true
-    }
-
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
+    buildFeatures{
         viewBinding = true
     }
 }
@@ -50,8 +46,11 @@ dependencies {
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
 
+
+
     implementation("androidx.work:work-runtime-ktx:2.10.1")
     implementation(libs.firebase.auth)
+    implementation(libs.activity)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

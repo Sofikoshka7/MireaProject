@@ -60,6 +60,11 @@
     <fragment
         android:id="@+id/fileWork"
         android:name="com.mirea.semyenovasa.mireaproject.Workwithfiles"
-        android:label="fragment_file_work"
+        android:label="fragment_workwithfiles"
         tools:layout="@layout/fragment_workwithfiles" />
+    <fragment
+        android:id="@+id/network"
+        android:name="com.mirea.semyenovasa.mireaproject.NetworkFragment"
+        android:label="fragment_network"
+        tools:layout="@layout/fragment_network" />
 </navigation>

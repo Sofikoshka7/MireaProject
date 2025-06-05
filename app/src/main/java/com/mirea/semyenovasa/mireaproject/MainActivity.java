@@ -26,7 +26,6 @@ import com.mirea.semyenovasa.mireaproject.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-    private ActivityMainBinding binding;
 
     private static final int PERMISSION_REQUEST_CODE = 1;
 
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        com.mirea.semyenovasa.mireaproject.databinding.ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         requestPermissions();
@@ -52,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = binding.navView;
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_data, R.id.nav_web, R.id.profileFragment,R.id.fileWork)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_view, R.id.nav_data, R.id.nav_web,
+                R.id.fragment_background,R.id.datchikFragment,R.id.cameraFragment,R.id.audioFragment,R.id.profileFragment,
+                R.id.fileWork,R.id.network)
 
                 .setOpenableLayout(drawer)
                 .build();
